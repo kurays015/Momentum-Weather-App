@@ -1,0 +1,63 @@
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  .greet-container p,
+  .greet-container span {
+    font-size: 3.2rem;
+  }
+  .time-desktop,
+  .clock-desktop span {
+    font-size: 4.5rem;
+  }
+  .clock-desktop .am-pm-desktop {
+    font-size: 1.3rem;
+  }
+  .clock-desktop .live-date {
+    font-size: 1rem;
+  }
+  .greet-container #write-name {
+    left: 38.5%;
+    top: 61%;
+  }
+
+  /* weather modal */
+  .weather-modal-container {
+    width: 700px;
+  
+  }
+  .speed,
+  .temp,
+  .humidity,
+  .pressure {
+    width: 80px;
+  }
+  .city-name {
+    font-size: 3.5rem;
+  }
+  .small-icons-container {
+    border-radius: 15px;
+  }
+  .weather-icon {
+    width: 130px;
+  }
+  .weather-form {
+    margin-bottom: 10px;
+  }
+  .weather-description {
+    font-size: 4rem;
+  }
+  .api-result-container {
+    justify-content: space-evenly;
+  }
+  .weather-form label {
+    font-size: 1.3rem;
+  }
+  .weather-details {
+    height: 50%;
+  }
+  .weather {
+    height: 50%;
+  }
+  .weather-details li span {
+    font-size: 2rem;
+  }
+ 
+}
