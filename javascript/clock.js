@@ -28,7 +28,7 @@ function updateClock() {
       greetText.innerHTML = ' Afternoon'
     } else if (hours >= 18 && amPm === 'PM' && greet === 'Evening') {
       greetText.innerHTML = ' Evening'
-    } else if(hours >= 12 && amPm === 'AM' && greet === 'Night') {
+    } else if(hours >= 00 && amPm === 'AM' && greet === 'Night') {
       greetText.innerHTML = 'Night' 
     }
   })
