@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App By Christ</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/todolist.css">
+    <link rel="stylesheet" href="CSS/modal.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+
+    
+
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+
+      <!-- BACKGROUND CHANGING -->
+      <div class="backgrounds-container">
+        <img src="img/pexels-quang-nguyen-vinh-2649403.jpg" class="showing background">
+        <img src="img/pexels-albert-white-361104.jpg" class="background">
+        <img src="img/pexels-bekir-donmez-3511543.jpg" class="background">
+        <img src="img/pexels-berend-de-kort-1452701.jpg" class="background">
+        <img src="img/pexels-kris-møklebust-10124639.jpg" class="background">   
+        <img src="img/pexels-lorenc-memaga-15148461.jpg" class="background">   
+        <img src="img/pexels-nicole-avagliano-2749481.jpg" class="background">   
+        <img src="img/pexels-simon-berger-688660.jpg" class="background">   
+        <img src="img/pexels-nick-kwan-2745258.jpg" class="background">   
+      </div>
+
+      <!-- todo list modal starts -->
+      <h4 class="open-modal">Todo</h4>
+      
+      <dialog class="container modal1">
+        <div class="todo-btn-container">
+          <button class="todo-modal-close">x</button>
+        </div>
+        <div class="header">
+          <h1>Todo List</h1>
+          <img class="logo" src="img/pen.png" alt="pen">
+          <p class="my-name">By: Christ</p>
+        </div>       
+        <div class="input-container">
+          <input maxlength="40" type="text" id="taskInput" placeholder="Add a task">
+          <input type="date" id="taskDate">
+          <button id="addButton">Add</button>
+        </div>
+        <ul class="todo-list"></ul>
+      </dialog>
+      <!-- todo list modal ends -->
+
+
+      <!-- weather modal starts -->
+      <h4 class="weather-modal">Weather</h4>
+      <dialog class="weather-modal-container">
+        <button class="weather-modal-close">x</button>
+
+        <form class="weather-form">
+          <label for="city">Weather Search</label>
+          <input class="search" type="text" name="city" placeholder="Search a city...">
+        </form>    
+
+        <div class="api-result-container">
+          <div class="weather">
+            <div>
+              <h1 class="city-name"></h1>
+              <img class="weather-icon">            
+            </div>
+            <div class="coordinate">
+              <p class="lon"></p>
+              <p class="lat"></p>
+            </div>
+          </div>
+          <ul class="weather-details"></ul>
+          <p  class="weather-description"></p>
+        </div>
+      </dialog>
+      <!-- weather modal ends -->
+
+      <!--Quotes Starts-->
+      <div class="quotes-container">
+        <p class="quotes"></p>
+        <p class="author"></p>
+      </div>
+      <!--Quotes Ends-->
+
+      <!--Date and Time Starts-->
+      <div class="clock-desktop">
+        <span class="time-desktop"></span>
+        <span class="am-pm-desktop"></span>
+        <p class="live-date"></p>
+      </div>   
+      
+      <div class="greet-container">
+        <p class="greets">Good<span class="greet"></span>, <span class="content-editable">user</span>. You did well today! </p>
+        <p id="write-name">Click user to write your name</p>
+      </div>
+      <!--Date and Time Starts-->
+
+    </main>
+   
+
+    
+
+  
+ 
+    <script src="javascript/todolist.js"></script>
+    <script src="javascript/modal.js"></script>
+    <script src="javascript/app.js"></script>
+    <script src="javascript/quotes.js"></script>
+    <script src="javascript/clock.js"></script>
+    <script src="javascript/background.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+
+  </body>
+</html>
