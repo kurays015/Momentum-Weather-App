@@ -19,7 +19,7 @@ function updateClock() {
 
   //update if it's afternoon, evening, or morning
   const greetText = document.querySelector('.greet');
-  const greets = ['Morning', 'Afternoon', 'Evening'];
+  const greets = ['Morning', 'Afternoon', 'Evening', 'Night'];
 
   greets.forEach( greet => {
     if(hours >= 18  && amPm === 'AM' && greet === 'Morning') {
@@ -28,6 +28,8 @@ function updateClock() {
       greetText.innerHTML = ' Afternoon'
     } else if (hours >= 18 && amPm === 'PM' && greet === 'Evening') {
       greetText.innerHTML = ' Evening'
+    } else if(hours >= 12 && amPm === 'AM' && greet === 'Night') {
+      greetText.innerHTML = 'Night' 
     }
   })
 
