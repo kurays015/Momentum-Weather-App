@@ -1,3 +1,4 @@
+/*Larger Screen */
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
   .greet-container p,
   .greet-container span {
@@ -57,7 +58,447 @@
     height: 50%;
   }
   .weather-details li span {
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+  .my-name {
+    right: 0;
+    font-size: 0.8rem;
   }
  
 }
+
+
+/* Medium Screen */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .time-desktop,
+  .clock-desktop span {
+    font-size: 4rem;
+  }
+  .clock-desktop .am-pm-desktop {
+    font-size: 1.3rem;
+  }
+  .clock-desktop .live-date {
+    font-size: 1rem;
+  }
+  .greet-container p,
+  .greet-container span {
+    font-size: 2.7rem;
+  }
+  .quotes-container {
+    max-width: 500px;
+  }
+  #write-name {
+    left: 38%;
+    top: 60%;
+  }
+
+   /* weather modal */
+  .weather-modal-container {
+    width: 700px;
+  
+  }
+  .speed,
+  .temp,
+  .humidity,
+  .pressure {
+    width: 80px;
+  }
+  .city-name {
+    font-size: 3.5rem;
+  }
+  .small-icons-container {
+    border-radius: 15px;
+  }
+  .weather-icon {
+    width: 130px;
+  }
+  .weather-form {
+    margin-bottom: 10px;
+  }
+  .weather-description {
+    font-size: 4rem;
+  }
+  .api-result-container {
+    justify-content: space-evenly;
+  }
+  .weather-form label {
+    font-size: 1.3rem;
+  }
+  .weather-details {
+    height: 50%;
+  }
+  .weather {
+    height: 50%;
+  }
+  .weather-details li span {
+    font-size: 1.5rem;
+  }
+  .my-name {
+    right: 0;
+    font-size: 0.8rem;
+  }
+
+}
+
+/* tablets */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .time-desktop,
+  .clock-desktop span {
+    font-size: 3.5rem;
+  }
+  .clock-desktop .am-pm-desktop {
+    font-size: 1.3rem;
+  }
+  .clock-desktop .live-date {
+    font-size: 1rem;
+  }
+  .greet-container p,
+  .greet-container span {
+    font-size: 2rem;
+  }
+  .quotes-container {
+    max-width: 500px;
+  }
+  .open-modal,
+  .weather-modal {
+    font-size: 1rem;
+  }
+  .quotes,
+  .author {
+    font-size: 0.7rem;
+  }
+  
+
+  /* weather modal */
+  .weather-modal-container {
+    width: 600px;
+
+  }
+  .speed,
+  .temp,
+  .humidity,
+  .pressure {
+    width: 60px;
+  }
+  .city-name {
+    font-size: 2rem;
+    margin-right: 35px;
+  }
+  .small-icons-container {
+    border-radius: 15px;
+  }
+  .weather-icon {
+    width: 100px;
+    
+  }
+  .weather-form {
+    margin-bottom: 10px;
+  }
+  .weather-description {
+    font-size: 3rem;
+  }
+  .weather-modal-container.expanded {
+    height: 60vh;
+  }
+  .api-result-container {
+    justify-content: space-evenly;
+  }
+  .weather-form label {
+    font-size: 1.1rem;
+  }
+  .weather-details {
+    height: 20%;
+    align-items: start;
+  }
+  .weather {
+    justify-content: center;
+    height: 50%;
+  }
+  .weather-details li span {
+    font-size: 1.5rem;
+  }
+  .weather-modal-close {
+    top: 10px;
+    right: 15px;
+  }
+  #write-name {
+    font-size: 0.6rem;
+    left: 33%;
+    top: 59%;
+  }
+  .my-name {
+    right: 0;
+    font-size: 0.8rem;
+  }
+
+}
+
+/* Mobiles */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .time-desktop,
+  .clock-desktop span {
+    font-size: 2.7rem;
+  }
+  .clock-desktop .am-pm-desktop {
+    font-size: 1rem;
+  }
+  .clock-desktop .live-date {
+    font-size: 0.8rem;
+  }
+  .greet-container p,
+  .greet-container span {
+    font-size: 1.5rem;
+  }
+  .quotes-container {
+    max-width: 400px;
+  }
+  .open-modal,
+  .weather-modal {
+    font-size: 1rem;
+  }
+  .quotes,
+  .author {
+    font-size: 0.7rem;
+  }
+  
+
+  /* weather modal */
+  .weather-modal-container {
+    width: 600px;
+
+  }
+  .speed,
+  .temp,
+  .humidity,
+  .pressure {
+    width: 60px;
+  }
+  .city-name {
+    font-size: 2rem;
+    margin: 35px;
+  }
+  .small-icons-container {
+    border-radius: 15px;
+  }
+  .weather-icon {
+    width: 80px;
+    
+  }
+  .weather-form {
+    margin-bottom: 10px;
+  }
+  .weather-description {
+    font-size: 2.5rem;
+  }
+  .weather-modal-container.expanded {
+    height: 60vh;
+  }
+  .api-result-container {
+    justify-content: space-evenly;
+  }
+  .weather-form label {
+    font-size: 1.1rem;
+  }
+  .weather-details {
+    height: 20%;
+    align-items: start;
+  }
+  .weather {
+    justify-content: end;
+    height: 50%;
+  }
+  .weather-details li span {
+    font-size: 1.5rem;
+  }
+  .weather-modal-close {
+    top: 10px;
+    right: 15px;
+  }
+  #write-name {
+    font-size: 0.6rem;
+    left: 36%;
+    top: 57%;
+  }
+  .my-name {
+    right: 0;
+    font-size: 0.8rem;
+  }
+
+}
+
+
+@media screen and (max-width: 575px) {
+  .time-desktop,
+  .clock-desktop span {
+    font-size: 1.5rem;
+  }
+  .clock-desktop .am-pm-desktop {
+    font-size: 0.7rem;
+  }
+  .clock-desktop .live-date {
+    font-size: 0.6rem;
+  }
+  .greet-container p,
+  .greet-container span {
+    font-size: 0.8rem;
+  }
+  .quotes-container {
+    max-width: 150px;
+  }
+  .open-modal,
+  .weather-modal {
+    font-size: 0.7rem;
+  }
+  .quotes,
+  .author {
+    font-size: 0.5rem;
+  }
+  
+  
+
+  /* weather modal */
+  .weather-modal-container {
+    width: 600px;
+
+  }
+  .speed,
+  .temp,
+  .humidity,
+  .pressure {
+    width: 50px;
+  }
+  .city-name {
+    font-size: 0.9rem;
+    margin: 15px;
+  }
+  .coordinate {
+    font-size: 0.5rem;
+    right: 30%;
+    color: #f8f4f4;
+    top: 0;
+  }
+  
+  .weather-icon {
+    width: 60px;
+    
+  }
+  .small-icons-container h5 {
+    font-size: 0.5rem;
+    margin-top: 2px;
+    
+  }
+  .small-icons-container {
+    background: none;
+    padding: 0;
+    
+    border: none;
+  }
+  .small-icons {
+    width: 20px;
+  }
+  .weather-form {
+    margin: 15px 0 0 10px;
+  }
+  .weather-description {
+    font-size: 1.5rem;
+  }
+  .weather-modal-container.expanded {
+    height: 50vh;
+  }
+  .api-result-container {
+    justify-content: space-evenly;
+  }
+  .weather-form label {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-right: 0;
+  }
+  .search {
+    width: 100%;
+    height: 100%;
+  }
+  .search::placeholder {
+    font-size: 0.5rem;
+  }
+  .weather-details {
+    height: 40%;
+    align-items: center;
+  }
+  .weather {
+    align-items: end;
+    justify-content: end;
+    height: 30%;
+  }
+  
+  .weather-details li span {
+    font-size: 0.9rem;
+  }
+  .weather-details li {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .pressure {
+    margin-left: 0;
+
+  }
+  .weather-modal-close {
+    top: 10px;
+    right: 15px;
+  }
+  #write-name {
+    font-size: 0.5rem;
+    opacity: 0.7;
+    left: 28%;
+    top: 54%;
+  }
+  
+  /* todo list task */
+  .todo-item .task {
+    font-size: 0.8rem;
+  }
+  .input-container {
+    width: 100%;
+  }
+  #taskInput{
+    font-size: 0.7rem;
+    height: 100%;
+  }
+  #taskDate {
+    font-size: 0.5rem;
+  }
+  .input-container #addButton  {
+    width: 100%;
+  }
+  .my-name {
+    right: 0;
+    font-size: 0.8rem;
+  }
+  .modal1 {
+    max-width: 300px;
+    margin: 20px auto;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
