@@ -80,13 +80,13 @@ function displayWeather(data) {
   let html = ` 
 
             <li data-aos="fade-right"
-            data-aos-duration="1000" ><span> ${temp} </span> °C<img src="img/temperature.png" class="temp"></li>
+            data-aos-duration="1000" ><span> ${temp}°C </span> <img src="img/temperature.png" class="temp"></li>
 
             <li data-aos="fade-right" 
-            data-aos-duration="1000"><span> ${data.wind.speed}</span> km/h<img src="img/wind.png" class="speed"></li>
+            data-aos-duration="1000"><span> ${data.wind.speed}km/h </span><img src="img/wind.png" class="speed"></li>
 
             <li data-aos="fade-left" 
-            data-aos-duration="1000"><span>${data.main.humidity}</span> %<img src="img/humidity.png" class="humidity"></li>
+            data-aos-duration="1000"><span>${data.main.humidity} %</span><img src="img/humidity.png" class="humidity"></li>
 
             <li data-aos="fade-left" 
             data-aos-duration="1000"><span>${data.main.pressure}</span> <img src="img/pressure.png" class="pressure"></li>
