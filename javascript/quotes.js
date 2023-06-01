@@ -27,6 +27,6 @@ const quotesGenerate = async () => {
 }
 quotesGenerate()
 
-setInterval(quotesGenerate, 1000*60);
+setInterval(quotesGenerate, 1000*45);
 
 
